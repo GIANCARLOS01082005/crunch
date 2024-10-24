@@ -264,8 +264,8 @@
 /* invalid index for size_t's */
 #define NPOS ((size_t)-1)
 
-static const wchar_t def_low_charset[] = L"abcdefghijklmnopqrstuvwxyz";
-static const wchar_t def_upp_charset[] = L"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+static const wchar_t def_low_charset[] = L"bcdfgjlmnprstvy";
+static const wchar_t def_upp_charset[] = L"aeiou";
 static const wchar_t def_num_charset[] = L"0123456789";
 static const wchar_t def_sym_charset[] = L"!@#$%^&*()-_+=~`[]{}|\\:;\"'<>,.?/ ";
 static const char version[] = "3.6";
